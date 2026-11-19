@@ -1,0 +1,55 @@
+{
+  "_comment": "As 7 cidades que receberam cartas de Paulo. Cada cidade é um modo de jogo: a mecânica é o problema que a carta resolve. status: 'open' (jogável) | 'soon'. lon/lat: posição real. map: [x, y] em % da imagem do mapa (art/mapa-cartas.webp), ajustado à mão porque o desenho é estilizado. bible: id do livro em cada Bíblia (pt = Ave-Maria, pl = Gdańska). image (opcional): nome do asset de textura com a ilustração da cidade; sem ele o painel usa um recorte do mapa.",
+  "start": "corinto",
+  "order": [
+    {
+      "id": "corinto", "name": "Corinto", "letter": "1 Coríntios", "icon": "🕊️", "color": "#62a8ff",
+      "lon": 22.9, "lat": 37.9, "map": [46.6, 45.6], "status": "open", "game": "corinth-capture",
+      "bible": { "pt": "i-corintios", "pl": "1-corintios" },
+      "problem": "Uma igreja dividida em grupos: “eu sou de Paulo, eu de Apolo…”",
+      "mechanic": "Reconcilie os quatro grupos. Abençoe quem te ofende; revidar derruba o Amor."
+    },
+    {
+      "id": "roma", "name": "Roma", "letter": "Romanos", "icon": "🏛️", "color": "#e07a5f",
+      "lon": 12.5, "lat": 41.9, "map": [24.2, 24.5], "status": "soon",
+      "bible": { "pt": "romanos", "pl": "romanos" },
+      "problem": "Judeus e gentios disputando quem é mais justo diante de Deus.",
+      "mechanic": "Em breve."
+    },
+    {
+      "id": "galacia", "name": "Galácia", "letter": "Gálatas", "icon": "⛓️", "color": "#f4a261",
+      "lon": 32.6, "lat": 39.9, "map": [77.0, 30.6], "status": "soon",
+      "bible": { "pt": "galatas", "pl": "galatas" },
+      "problem": "Voltar às correntes da lei depois de conhecer a liberdade.",
+      "mechanic": "Em breve."
+    },
+    {
+      "id": "efeso", "name": "Éfeso", "letter": "Efésios", "icon": "🛡️", "color": "#c084fc",
+      "lon": 27.3, "lat": 37.9, "map": [66.2, 40.2], "status": "soon",
+      "bible": { "pt": "efesios", "pl": "efesios" },
+      "problem": "Uma luta que não é contra carne e sangue: a armadura de Deus.",
+      "mechanic": "Em breve."
+    },
+    {
+      "id": "filipos", "name": "Filipos", "letter": "Filipenses", "icon": "⛓️‍💥", "color": "#ffd166",
+      "lon": 24.3, "lat": 41.0, "map": [58.3, 26.0], "status": "soon",
+      "bible": { "pt": "filipenses", "pl": "filipenses" },
+      "problem": "Alegria mesmo na prisão: “alegrai-vos sempre no Senhor”.",
+      "mechanic": "Em breve."
+    },
+    {
+      "id": "colossos", "name": "Colossos", "letter": "Colossenses", "icon": "👑", "color": "#6ee7b7",
+      "lon": 29.2, "lat": 37.8, "map": [74.6, 44.6], "status": "soon",
+      "bible": { "pt": "colossenses", "pl": "colossenses" },
+      "problem": "Filosofias vazias querendo ocupar o lugar de Cristo.",
+      "mechanic": "Em breve."
+    },
+    {
+      "id": "tessalonica", "name": "Tessalônica", "letter": "1 e 2 Tessalonicenses", "icon": "🌅", "color": "#73d2de",
+      "lon": 22.9, "lat": 40.6, "map": [52.6, 28.4], "status": "soon",
+      "bible": { "pt": "i-tessalonicenses", "pl": "1-tessalonicenses" },
+      "problem": "Uma igreja perseguida esperando a volta de Cristo: vigiar sem desanimar.",
+      "mechanic": "Em breve."
+    }
+  ]
+}

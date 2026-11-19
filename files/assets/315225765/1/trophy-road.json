@@ -1,0 +1,107 @@
+{
+  "_comment": "Marcos iniciais feitos à mão. Depois do último, a trilha continua para sempre (generated): o intervalo cresce gapGrowth a cada marco e os presentes seguem giftCycle; 'scale' aumenta a recompensa a cada volta do ciclo.",
+  "milestones": [
+    {
+      "id": "tr-10",
+      "trophies": 10,
+      "gift": {
+        "reward": {
+          "type": "coins",
+          "amount": 25
+        }
+      }
+    },
+    {
+      "id": "tr-25",
+      "trophies": 25,
+      "gift": {
+        "table": "common"
+      }
+    },
+    {
+      "id": "tr-50",
+      "trophies": 50,
+      "gift": {
+        "reward": {
+          "type": "cosmetic",
+          "slot": "avatar",
+          "rarity": "common"
+        }
+      }
+    },
+    {
+      "id": "tr-80",
+      "trophies": 80,
+      "gift": {
+        "reward": {
+          "type": "extraTry",
+          "amount": 2
+        }
+      }
+    },
+    {
+      "id": "tr-120",
+      "trophies": 120,
+      "gift": {
+        "table": "rare"
+      }
+    },
+    {
+      "id": "tr-170",
+      "trophies": 170,
+      "gift": {
+        "table": "common"
+      }
+    },
+    {
+      "id": "tr-230",
+      "trophies": 230,
+      "gift": {
+        "reward": {
+          "type": "cosmetic",
+          "slot": "avatar",
+          "rarity": "rare"
+        }
+      }
+    },
+    {
+      "id": "tr-300",
+      "trophies": 300,
+      "gift": {
+        "reward": {
+          "type": "gems",
+          "amount": 20
+        }
+      }
+    }
+  ],
+  "generated": {
+    "gapGrowth": 10,
+    "roundTo": 5,
+    "giftCycle": [
+      {
+        "table": "common"
+      },
+      {
+        "reward": {
+          "type": "coins",
+          "amount": 60,
+          "scale": 20
+        }
+      },
+      {
+        "table": "common"
+      },
+      {
+        "table": "rare"
+      },
+      {
+        "reward": {
+          "type": "gems",
+          "amount": 25,
+          "scale": 5
+        }
+      }
+    ]
+  }
+}

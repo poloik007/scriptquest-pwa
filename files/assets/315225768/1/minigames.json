@@ -1,0 +1,171 @@
+{
+  "corinth-capture": {
+    "name": "Corinto: Captura de Zonas",
+    "icon": "🕊️",
+    "city": "corinto",
+    "description": "Reconcilie os quatro grupos de Corinto: fique nas zonas, abençoe quem te ofende e não revide.",
+    "hint": "Fique na zona para unir o grupo. Toque ABENÇOAR quando a palavra chegar.",
+    "lives": 3,
+    "extraTrySeconds": 30,
+    "_comment": "Números de equilíbrio. Tempos em segundos, unidade de 0 a 1 (1 = 100%). byBox = jornada (1..6); da 7ª em diante usa a 6 e escala com 'beyond'.",
+    "step": 0.0166667,
+    "arenaHalf": 9,
+    "timeLimit": 105,
+    "zoneRadius": 2.6,
+    "startUnity": 0.45,
+    "fillSeconds": 8,
+    "drainOutside": 0.025,
+    "drainGossip": 0.08,
+    "schismSeconds": 5,
+    "fireMul": 1,
+    "speedMul": 1,
+    "love": { "start": 1, "max": 3, "zoneUnited": 0.75, "perfect": 0.1, "hit": 0.25, "retaliate": 0.5 },
+    "bless": { "perfect": 0.12, "good": 0.25, "whiffLock": 0.4, "perfectUnity": 0.05 },
+    "retaliate": { "unity": 0.1, "cooldown": 0.6 },
+    "words": {
+      "interval": 0.75, "calm": 1.5, "firstDelay": 0.9, "speed": 4.2, "hitRadius": 0.6,
+      "rim": 0.3, "spread": 1.2, "maxActive": 6, "life": 4, "invuln": 0.6
+    },
+    "gifts": {
+      "spots": [[0, -7.5], [0, 7.5], [-7.5, 0], [7.5, 0]],
+      "first": 6, "stagger": 4, "respawn": 9, "radius": 1.0, "max": 2
+    },
+    "prophecy": { "seconds": 2.5, "slow": 0.55 },
+    "knowledge": { "push": 2.5, "stun": 1.5, "puffGrow": 0.4 },
+    "tongues": { "confusionSeconds": 4, "confusionDrain": 0.05, "interpretedFill": 0.1 },
+    "enemies": [],
+    "giftTypes": [],
+    "enemyEntries": [[0, -8.5], [0, 8.5], [-8.5, 0], [8.5, 0]],
+    "obstacles": [
+        { "x": 0, "z": -2.8, "w": 2.0, "d": 0.9, "kind": "wall" },
+        { "x": 0, "z": 2.8, "w": 2.0, "d": 0.9, "kind": "wall" },
+        { "x": -2.8, "z": 0, "w": 0.9, "d": 2.0, "kind": "wall" },
+        { "x": 2.8, "z": 0, "w": 0.9, "d": 2.0, "kind": "wall" },
+        { "x": -2.0, "z": -7.9, "w": 1.0, "d": 1.0, "kind": "crates" },
+        { "x": 2.0, "z": -7.9, "w": 1.0, "d": 1.0, "kind": "amphorae" },
+        { "x": -2.0, "z": 7.9, "w": 1.0, "d": 1.0, "kind": "amphorae" },
+        { "x": 2.0, "z": 7.9, "w": 1.0, "d": 1.0, "kind": "crates" },
+        { "x": -7.9, "z": -2.0, "w": 1.0, "d": 1.0, "kind": "amphorae" },
+        { "x": -7.9, "z": 2.0, "w": 1.0, "d": 1.0, "kind": "crates" },
+        { "x": 7.9, "z": -2.0, "w": 1.0, "d": 1.0, "kind": "crates" },
+        { "x": 7.9, "z": 2.0, "w": 1.0, "d": 1.0, "kind": "amphorae" }
+    ],
+    "decor": [
+        { "x": -8.1, "z": -8.1, "kind": "bush" }, { "x": 8.1, "z": -8.1, "kind": "bush" },
+        { "x": -8.1, "z": 8.1, "kind": "bush" }, { "x": 8.1, "z": 8.1, "kind": "bush" },
+        { "x": -4.0, "z": -8.4, "kind": "flowers" }, { "x": 4.0, "z": 8.4, "kind": "flowers" },
+        { "x": 8.4, "z": -4.0, "kind": "flowers" }, { "x": -8.4, "z": 4.0, "kind": "flowers" }
+    ],
+    "gossip": { "speed": 4.2, "spawnAfter": 6, "respawn": 7, "size": 1 },
+    "puffed": { "speed": 1.6, "spawnAfter": 12, "respawn": 12, "size": 1, "maxSize": 2.4, "minSize": 0.35, "shrinkRate": 0.35, "shrinkLove": 2 },
+    "score": { "perSecond": 10, "perLove": 100, "perPerfect": 50, "noRetaliationBonus": 300 },
+    "byBox": {
+      "1": { "zones": ["cefas"], "timeLimit": 90 },
+      "2": { "zones": ["cefas", "paulo"], "timeLimit": 90 },
+      "3": { "zones": ["paulo", "apolo", "cefas", "cristo"], "enemies": ["gossip"], "timeLimit": 105 },
+      "4": { "zones": ["paulo", "apolo", "cefas", "cristo"], "enemies": ["gossip"], "giftTypes": ["prophecy", "knowledge", "tongues", "interpretation"], "timeLimit": 110 },
+      "5": { "zones": ["paulo", "apolo", "cefas", "cristo"], "enemies": ["gossip", "puffed"], "giftTypes": ["prophecy", "knowledge", "tongues", "interpretation"], "timeLimit": 115 },
+      "6": { "zones": ["paulo", "apolo", "cefas", "cristo"], "enemies": ["gossip", "puffed"], "giftTypes": ["prophecy", "knowledge", "tongues", "interpretation"], "timeLimit": 110, "fireMul": 1.15, "speedMul": 1.1 }
+    },
+    "beyond": { "speedMul": 0.05, "fireMul": 0.06, "timeLimit": -3, "minTime": 80 },
+    "versus": {
+      "_comment": "Multiplayer 1 contra 1: Reconciliador x Fofoqueiro (jogador). journey = jornada usada como base; round sobrescreve. Velocidades em u/s, tempos em s. moveSlack = folga de velocidade aceita do celular; maxRewind/netGrace = compensação do atraso da rede no ABENÇOAR.",
+      "journey": 4,
+      "round": { "zones": ["paulo", "apolo", "cefas", "cristo"], "enemies": [], "giftTypes": ["prophecy", "knowledge", "tongues", "interpretation"], "timeLimit": 90 },
+      "reconcilerSpeed": 5,
+      "moveSlack": 1.15,
+      "maxRewind": 0.3,
+      "netGrace": 0.15,
+      "gossip": { "speed": 5.5, "start": [0, -8.5] },
+      "hide": { "seconds": 5, "cooldown": 15, "firstCooldown": 5 },
+      "rumor": { "seconds": 6, "cooldown": 12, "firstCooldown": 6, "drain": 0.05 },
+      "bless": { "range": 1.5, "shameSeconds": 3, "shameSlow": 0.5, "love": 0.1 },
+      "retaliate": { "range": 3, "stun": 1, "fastSeconds": 4, "fastMul": 1.4, "cooldown": 2 },
+      "score": { "perDrained": 100, "perRumor": 40, "neverBlessedBonus": 200, "winBonus": 400 },
+      "matchmaking": { "botAfterSeconds": 30, "reconnectSeconds": 20 },
+      "lessons": {
+        "reconciler": {
+          "order": ["schism", "won", "blessed", "retaliated", "time", "lives"],
+          "text": {
+            "schism": "Um boato bastou para um grupo ir embora. Paulo temia encontrar em Corinto contendas e mexericos (2 Co 12:20).",
+            "won": "Você uniu a igreja mesmo com o mexerico correndo solto. Era isso que Paulo pedia: que não haja divisões entre vós (1 Co 1:10).",
+            "blessed": "Você abençoou o Fofoqueiro {n}x em vez de revidar: “insultados, abençoamos” (1 Co 4:12).",
+            "retaliated": "Revidar parou o Fofoqueiro por um segundo, mas ele voltou mais rápido e o seu Amor caiu. A caridade “não se irrita” (1 Co 13:5).",
+            "time": "O tempo acabou com a igreja ainda dividida. Quando um membro sofre, todos sofrem com ele (1 Co 12:26).",
+            "lives": "Sem Amor, cada palavra dura feriu de verdade. “A caridade é paciente” (1 Co 13:4).",
+            "fallback": "Paulo escreveu aos coríntios para que a igreja fosse um só corpo (1 Co 12:12)."
+          }
+        },
+        "gossip": {
+          "order": ["won", "lost", "blessed", "rumors"],
+          "text": {
+            "won": "Você dividiu a igreja. Era exatamente isso que Paulo temia encontrar em Corinto: contendas e mexericos (2 Co 12:20).",
+            "lost": "Desta vez a unidade venceu o mexerico: a caridade tudo desculpa (1 Co 13:7).",
+            "blessed": "Quem você atacava respondeu com bênção. É assim que o mexerico perde a força (1 Co 4:12).",
+            "rumors": "Cada boato continuou esvaziando o grupo mesmo depois que você saiu: a palavra solta não volta atrás.",
+            "fallback": "Paulo temia encontrar em Corinto contendas e mexericos (2 Co 12:20)."
+          }
+        }
+      }
+    },
+    "journeys": {
+      "1": { "title": "Um grupo só", "goal": "Entre na zona, desvie e abençoe." },
+      "2": { "title": "Duas zonas", "goal": "Uma esvazia enquanto você está na outra." },
+      "3": { "title": "O Fofoqueiro", "goal": "Quatro grupos e alguém espalhando divisão." },
+      "4": { "title": "Os dons", "goal": "Dons valem pelo Amor. Sem Amor, só barulho." },
+      "5": { "title": "O Inchado", "goal": "Com Amor alto, o orgulho murcha." },
+      "6": { "title": "A igreja inteira", "goal": "Mais palavras, mais rápido." }
+    },
+    "zones": {
+      "paulo": { "name": "de Paulo", "color": "#62a8ff", "x": -5, "z": -5, "ownCharacter": "saintpaul", "ownCharacterFireMul": 1.4,
+        "words": ["eu sou de Paulo", "orgulho", "partido", "contenda", "rivalidade"] },
+      "apolo": { "name": "de Apolo", "color": "#c084fc", "x": 5, "z": -5, "fireMul": 1.6, "speedMul": 1.25,
+        "words": ["eloquência", "sabedoria", "discurso", "vaidade", "soberba", "retórica"] },
+      "cefas": { "name": "de Cefas", "color": "#f4a261", "x": -5, "z": 5, "fireMul": 0.6, "speedMul": 0.7, "fillMul": 0.7, "drainMul": 0.5,
+        "words": ["tradição", "lei", "costume", "julgamento"] },
+      "cristo": { "name": "de Cristo", "color": "#6ee7b7", "x": 5, "z": 5, "homing": 1.6,
+        "words": ["os verdadeiros", "puros", "superiores", "inveja", "desprezo"] }
+    },
+    "neighbors": {
+      "paulo": ["apolo", "cefas"], "apolo": ["paulo", "cristo"],
+      "cefas": ["paulo", "cristo"], "cristo": ["apolo", "cefas"]
+    },
+    "giftDefs": {
+      "prophecy": { "name": "Profecia", "icon": "👁️", "color": "#ffd166" },
+      "knowledge": { "name": "Conhecimento", "icon": "📘", "color": "#73d2de" },
+      "tongues": { "name": "Línguas", "icon": "🗣️", "color": "#ff8fab" },
+      "interpretation": { "name": "Interpretação", "icon": "👂", "color": "#b8f2a1" }
+    },
+    "verses": {
+      "opening": { "ref": "1 Co 1:10", "text": "Que todos estejais em pleno acordo e que não haja entre vós divisões." },
+      "factions": { "ref": "1 Co 1:12", "text": "“Eu sou de Paulo; eu, de Apolo; eu, de Cefas; eu, de Cristo”." },
+      "pauloZone": { "ref": "1 Co 1:13", "text": "Estaria Cristo dividido? É Paulo quem foi crucificado por vós?" },
+      "perfect": { "ref": "1 Co 4:12", "text": "Insultados, abençoamos." },
+      "retaliate": { "ref": "1 Co 13:5", "text": "A caridade não se irrita, não guarda rancor." },
+      "gong": { "ref": "1 Co 13:1", "text": "Se não tiver caridade, sou como o bronze que soa, ou como o címbalo que retine." },
+      "puffGrow": { "ref": "1 Co 8:1", "text": "A ciência incha, a caridade constrói." },
+      "puffedContest": { "ref": "1 Co 13:4", "text": "A caridade não é orgulhosa. Não é arrogante." },
+      "tonguesAlone": { "ref": "1 Co 14:28", "text": "Se não houver intérprete, fiquem calados na reunião." },
+      "interpretation": { "ref": "1 Co 14:27", "text": "…e haja alguém que interprete." },
+      "united": { "ref": "1 Co 12:26", "text": "Se um membro é tratado com carinho, todos os outros se congratulam por ele." },
+      "won": { "ref": "1 Co 10:17", "text": "Há um único pão; nós, embora sendo muitos, formamos um só corpo." }
+    },
+    "lessons": {
+      "perfectMin": 3,
+      "order": ["schism", "lives", "time", "retaliate", "gong", "tonguesAlone", "puffGrew", "perfect", "interpreted", "won"],
+      "text": {
+        "schism": "O grupo {zone} foi embora quando a unidade chegou a zero. Paulo pediu: “que não haja entre vós divisões” (1 Co 1:10).",
+        "lives": "Sem Amor, cada palavra dura feriu de verdade. “A caridade é paciente” (1 Co 13:4).",
+        "time": "O tempo acabou com a igreja ainda dividida. Quando um membro sofre, todos sofrem com ele (1 Co 12:26).",
+        "retaliate": "Revidar encheu a barra na hora, mas esvaziou o seu Amor. Por isso Paulo escreveu que a caridade “não se irrita” (1 Co 13:5).",
+        "gong": "Seus dons sem Amor só fizeram barulho de gongo: sem caridade, “sou como o bronze que soa” (1 Co 13:1).",
+        "tonguesAlone": "Línguas sem intérprete confundiram a igreja. Por isso: “haja alguém que interprete” (1 Co 14:27).",
+        "puffGrew": "O Conhecimento afastou os inimigos, mas fez o Inchado crescer: “a ciência incha, a caridade constrói” (1 Co 8:1).",
+        "perfect": "Você abençoou quem te ofendeu {n} vezes. Era assim que Paulo vivia: “insultados, abençoamos” (1 Co 4:12).",
+        "interpreted": "Línguas com Interpretação edificaram todos os grupos de uma vez (1 Co 14:27).",
+        "won": "Os grupos divididos viraram uma só mesa: “há um único pão… formamos um só corpo” (1 Co 10:17).",
+        "fallback": "Paulo escreveu aos coríntios para que a igreja fosse um só corpo (1 Co 12:12)."
+      }
+    }
+  }
+}

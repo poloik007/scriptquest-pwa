@@ -1,0 +1,243 @@
+{
+  "items": [
+    {
+      "id": "skin_default",
+      "slot": "skin",
+      "name": "Peregrino",
+      "rarity": "common",
+      "price": 0,
+      "giftable": false,
+      "color": "#d9a066",
+      "tint": null
+    },
+    {
+      "id": "skin_blue",
+      "slot": "skin",
+      "name": "Peregrino Azul",
+      "rarity": "common",
+      "price": 100,
+      "giftable": true,
+      "color": "#4f8fd9",
+      "tint": "#4f8fd9"
+    },
+    {
+      "id": "skin_green",
+      "slot": "skin",
+      "name": "Peregrino Verde",
+      "rarity": "common",
+      "price": 100,
+      "giftable": true,
+      "color": "#5cb85c",
+      "tint": "#5cb85c"
+    },
+    {
+      "id": "skin_gold",
+      "slot": "skin",
+      "name": "Peregrino Dourado",
+      "rarity": "rare",
+      "price": 400,
+      "giftable": true,
+      "color": "#f5c542",
+      "tint": "#f5c542"
+    },
+    {
+      "id": "skin_snow",
+      "slot": "skin",
+      "name": "Peregrino da Neve",
+      "rarity": "rare",
+      "price": 400,
+      "giftable": true,
+      "color": "#e8f1fa",
+      "tint": "#e8f1fa"
+    },
+    {
+      "id": "av_ovelha",
+      "slot": "avatar",
+      "name": "Ovelhinha",
+      "rarity": "common",
+      "unlock": "free",
+      "price": 0,
+      "giftable": false,
+      "color": "#3f9b5a",
+      "icon": "🐑",
+      "image": "avatar-ovelha.webp"
+    },
+    {
+      "id": "av_pomba",
+      "slot": "avatar",
+      "name": "Pomba",
+      "rarity": "common",
+      "unlock": "free",
+      "price": 0,
+      "giftable": false,
+      "color": "#4f8fd9",
+      "icon": "🕊",
+      "image": "avatar-pomba.webp"
+    },
+    {
+      "id": "av_saintpaul",
+      "slot": "avatar",
+      "name": "São Paulo",
+      "rarity": "common",
+      "unlock": "free",
+      "price": 0,
+      "giftable": false,
+      "color": "#2f8f4e",
+      "icon": "🧔",
+      "image": "avatar-saintpaul.webp"
+    },
+    {
+      "id": "av_peixe",
+      "slot": "avatar",
+      "name": "Peixe",
+      "rarity": "common",
+      "unlock": "gift",
+      "price": 0,
+      "giftable": true,
+      "color": "#2a9d9b",
+      "icon": "🐟",
+      "image": "avatar-peixe.webp"
+    },
+    {
+      "id": "av_pao",
+      "slot": "avatar",
+      "name": "Pão",
+      "rarity": "common",
+      "unlock": "gift",
+      "price": 0,
+      "giftable": true,
+      "color": "#c9822e",
+      "icon": "🍞",
+      "image": "avatar-pao.webp"
+    },
+    {
+      "id": "av_lamparina",
+      "slot": "avatar",
+      "name": "Lamparina",
+      "rarity": "common",
+      "unlock": "gift",
+      "price": 0,
+      "giftable": true,
+      "color": "#b9562b",
+      "icon": "🪔",
+      "image": "avatar-lamparina.webp"
+    },
+    {
+      "id": "av_coroa",
+      "slot": "avatar",
+      "name": "Coroa",
+      "rarity": "rare",
+      "unlock": "gift",
+      "price": 0,
+      "giftable": true,
+      "color": "#7a4fc9",
+      "icon": "👑",
+      "image": "avatar-coroa.webp"
+    },
+    {
+      "id": "av_estrela",
+      "slot": "avatar",
+      "name": "Estrela",
+      "rarity": "rare",
+      "unlock": "gift",
+      "price": 0,
+      "giftable": true,
+      "color": "#2d3a8c",
+      "icon": "🌟",
+      "image": "avatar-estrela.webp"
+    },
+    {
+      "id": "av_barco",
+      "slot": "avatar",
+      "name": "Barco",
+      "rarity": "common",
+      "unlock": "shop",
+      "price": 80,
+      "giftable": false,
+      "color": "#2f6fb0",
+      "icon": "⛵",
+      "image": "avatar-barco.webp"
+    },
+    {
+      "id": "av_uvas",
+      "slot": "avatar",
+      "name": "Uvas",
+      "rarity": "common",
+      "unlock": "shop",
+      "price": 80,
+      "giftable": false,
+      "color": "#6b3fa0",
+      "icon": "🍇",
+      "image": "avatar-uvas.webp"
+    },
+    {
+      "id": "av_ancora",
+      "slot": "avatar",
+      "name": "Âncora",
+      "rarity": "common",
+      "unlock": "shop",
+      "price": 120,
+      "giftable": false,
+      "color": "#35506e",
+      "icon": "⚓",
+      "image": "avatar-ancora.webp"
+    },
+    {
+      "id": "av_leao",
+      "slot": "avatar",
+      "name": "Leão",
+      "rarity": "rare",
+      "unlock": "shop",
+      "price": 200,
+      "giftable": false,
+      "color": "#c98a1e",
+      "icon": "🦁",
+      "image": "avatar-leao.webp"
+    },
+    {
+      "id": "av_trombeta",
+      "slot": "avatar",
+      "name": "Trombeta",
+      "rarity": "rare",
+      "unlock": "shop",
+      "price": 250,
+      "giftable": false,
+      "color": "#a8423a",
+      "icon": "🎺",
+      "image": "avatar-trombeta.webp"
+    },
+    {
+      "id": "av_pergaminho",
+      "slot": "avatar",
+      "name": "Pergaminho",
+      "rarity": "rare",
+      "unlock": "shop",
+      "price": 300,
+      "giftable": false,
+      "color": "#8a6a3a",
+      "icon": "📜",
+      "image": "avatar-pergaminho.webp"
+    }
+  ],
+  "shopExtras": [
+    {
+      "id": "extra_try",
+      "name": "Nova tentativa",
+      "price": 40,
+      "reward": {
+        "type": "extraTry",
+        "amount": 1
+      }
+    },
+    {
+      "id": "streak_guard",
+      "name": "Protetor de streak",
+      "price": 120,
+      "reward": {
+        "type": "streakShield",
+        "amount": 1
+      }
+    }
+  ],
+  "_comment": "Skins tingem o personagem (tint = cor multiplicada sobre a textura; null = cor original). Avatares (slot avatar) são a foto do perfil: unlock free = todos têm; gift = só saem nos presentes da trilha (giftable); shop = à venda na Loja por 'price' moedas. 'image' é a textura (tag ui-icon); sem ela, usa o emoji 'icon'."
+}

@@ -1,0 +1,11 @@
+{
+  "_comment": "Classes do jogador. basis = 'level' (hoje) ou 'trophies' (quando o ranking ficar competitivo).",
+  "basis": "level",
+  "tiers": [
+    { "id": "bronze",   "name": "Bronze",   "min": 1,  "color": "#c98a4b", "icon": "🥉" },
+    { "id": "prata",    "name": "Prata",    "min": 5,  "color": "#c0c7d1", "icon": "🥈" },
+    { "id": "ouro",     "name": "Ouro",     "min": 10, "color": "#f2c230", "icon": "🥇" },
+    { "id": "platina",  "name": "Platina",  "min": 15, "color": "#7fd3c7", "icon": "💠" },
+    { "id": "diamante", "name": "Diamante", "min": 20, "color": "#7ab8ff", "icon": "💎" }
+  ]
+}

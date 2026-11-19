@@ -1,0 +1,107 @@
+{
+  "_comment": "Personagens jogáveis (modelos Meshy com esqueleto Mixamo; clipes com prefixo próprio, ver tools/build-meshy-hero.py). unlock: { type: 'free' | 'level' | 'trophies' | 'coins', value }. special.type: dash | shield | reveal | magnet.",
+  "default": "saintpaul",
+  "items": [
+    {
+      "id": "saintpaul",
+      "name": "São Paulo",
+      "description": "O apóstolo dos gentios. Caminha firme anunciando o Evangelho por onde passa.",
+      "model": "SaintPaul.glb",
+      "material": "saintpaul_material",
+      "animPrefix": [
+        "SaintPaul_"
+      ],
+      "scale": 1.08,
+      "hideNodes": [],
+      "icon": "📜",
+      "avatar": "avatar-saintpaul.webp",
+      "color": "#2f8f4e",
+      "unlock": {
+        "type": "free"
+      },
+      "special": {
+        "type": "reveal",
+        "name": "Espada do Espírito",
+        "description": "Mostra por alguns segundos para onde vão os inimigos.",
+        "cooldown": 18,
+        "duration": 4
+      },
+      "tintSkip": []
+    },
+    {
+      "id": "barnabas",
+      "name": "Barnabé",
+      "description": "Filho da consolação. Anima quem desanima e acolhe quem chega.",
+      "model": "Barnabas.glb",
+      "material": "barnabas_material",
+      "animPrefix": [
+        "Barnabas_"
+      ],
+      "scale": 1.08,
+      "hideNodes": [],
+      "icon": "🤝",
+      "color": "#a8743a",
+      "unlock": {
+        "type": "free"
+      },
+      "special": {
+        "type": "shield",
+        "name": "Consolação",
+        "description": "Por alguns segundos, palavras duras não tiram Amor.",
+        "cooldown": 20,
+        "duration": 5
+      },
+      "tintSkip": []
+    },
+    {
+      "id": "timothy",
+      "name": "Timóteo",
+      "description": "Jovem e fiel discípulo de Paulo. Ninguém despreza a sua juventude.",
+      "model": "Timothy.glb",
+      "material": "timothy_material",
+      "animPrefix": [
+        "Timothy_"
+      ],
+      "scale": 1.08,
+      "hideNodes": [],
+      "icon": "📖",
+      "color": "#3f6fb0",
+      "unlock": {
+        "type": "free"
+      },
+      "special": {
+        "type": "dash",
+        "name": "Ânimo Jovem",
+        "description": "Corre muito mais rápido por alguns segundos.",
+        "cooldown": 15,
+        "duration": 3
+      },
+      "tintSkip": []
+    },
+    {
+      "id": "priscilla",
+      "name": "Priscila",
+      "description": "Fazedora de tendas com Áquila, abre a casa para a igreja se reunir.",
+      "model": "Priscilla.glb",
+      "material": "priscilla_material",
+      "animPrefix": [
+        "Priscilla_"
+      ],
+      "scale": 1.08,
+      "hideNodes": [],
+      "icon": "⛺",
+      "color": "#a8423a",
+      "unlock": {
+        "type": "free"
+      },
+      "special": {
+        "type": "magnet",
+        "name": "Casa Aberta",
+        "description": "Puxa para perto o dom mais próximo.",
+        "cooldown": 20,
+        "duration": 4
+      },
+      "tintSkip": []
+    }
+  ]
+}

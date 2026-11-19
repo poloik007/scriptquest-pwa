@@ -1,0 +1,29 @@
+{
+  "match": {
+    "trophiesBase": 6, "trophiesBonus": 6,
+    "xpBase": 30, "xpBonus": 30, "xpOnLoss": 10,
+    "coinsBase": 5, "coinsBonus": 10
+  },
+  "streak": {
+    "dailyCoins": [5, 10, 15, 20, 25, 30, 40],
+    "milestones": {
+      "7":  { "type": "streakShield", "amount": 1 },
+      "30": { "type": "gems", "amount": 10 }
+    }
+  },
+  "duplicateCosmeticCoins": 50,
+  "giftTables": {
+    "common": [
+      { "weight": 50, "reward": { "type": "coins", "amount": 30 } },
+      { "weight": 25, "reward": { "type": "extraTry", "amount": 1 } },
+      { "weight": 15, "reward": { "type": "xp", "amount": 50 } },
+      { "weight": 10, "reward": { "type": "cosmetic", "rarity": "common" } }
+    ],
+    "rare": [
+      { "weight": 40, "reward": { "type": "coins", "amount": 80 } },
+      { "weight": 20, "reward": { "type": "extraTry", "amount": 2 } },
+      { "weight": 15, "reward": { "type": "streakShield", "amount": 1 } },
+      { "weight": 25, "reward": { "type": "cosmetic", "rarity": "rare" } }
+    ]
+  }
+}

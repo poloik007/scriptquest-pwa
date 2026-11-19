@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <style></style>
+    <title>ScriptQuest</title>
+    <script src="playcanvas-stable.min.js"></script>
+    <script>
+        window.ASSET_PREFIX = "";
+        window.SCRIPT_PREFIX = "";
+        window.SCENE_PATH = "2649099.json";
+        window.CONTEXT_OPTIONS = {
+            'antialias': true,
+            'alpha': false,
+            'preserveDrawingBuffer': false,
+            'deviceTypes': [`webgl2`, `webgl1`],
+            'powerPreference': "high-performance"
+        };
+        window.SCRIPTS = [ 315225723, 315225725, 315225726, 315225739, 315225751, 315225753, 315225756, 315225757, 315225758, 315225759, 315225760, 315225761, 315236389, 315236395, 315236396, 315236397, 315237596, 315240160, 315240161, 315240162, 315240163, 315240164, 315240165, 315248708, 315248709, 315248883, 315249853, 315249949, 315249950, 315251373, 316890246, 315295140, 315295141, 315305463, 315308773, 315308774, 316266738, 316283380, 316283381, 316283413, 316283414, 316907948, 316907949, 316907950, 316907951 ];
+        window.CONFIG_FILENAME = "config.json";
+        window.INPUT_SETTINGS = {
+            useKeyboard: true,
+            useMouse: true,
+            useGamepads: false,
+            useTouch: true
+        };
+        pc.script.legacy = false;
+        window.PRELOAD_MODULES = [
+        ];
+    </script>
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#1d2b53">
+    <meta name="description" content="Aventura bíblica com o apóstolo Paulo.">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ScriptQuest">
+    <link rel="apple-touch-icon" href="pwa/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="pwa/icon-192.png">
+</head>
+<body>
+    <script src="__start__.js"></script>
+    <script src="__loading__.js"></script>
+    <script>if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js'));</script>
+</body>
+</html>
